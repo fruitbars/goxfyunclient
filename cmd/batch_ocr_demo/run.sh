@@ -1,0 +1,1 @@
+./batch_ocr_demo -input ./input -output ./output -cat ch_en -workers 10

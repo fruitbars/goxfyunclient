@@ -1,0 +1,72 @@
+# Go
+# ===================
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when run with the
+# -o flag to redirect to a file.
+*.cover
+
+# Dependency directory
+vendor/
+
+# Backup files
+*.bak
+
+
+# IDE settings
+# ============
+.idea/
+.vscode/
+
+# OS-generated files
+# ==================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V1D00
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+# =========
+*.log
+
+# Environment variables
+.env
+.env.*
+!/.env.example
+
+# Project-specific ignores
+# ========================
+# Output directories from demos
+/cmd/ist_demo/output
+/cmd/tts_demo/output
+
+# Demo binaries
+/cmd/detectlanguage_demo/detectlanguage_demo
+/cmd/iocrld_demo/iocrld_demo
+/cmd/ist_demo/ist_demo
+/cmd/llmocr_demo/llmocr_demo
+
+/cmd/ocr_demo/ocr_demo
+/cmd/ocr_demo/data/
+
+/cmd/translate_demo/translate_demo
+/cmd/tts_demo/tts_demo
+
+/cmd/batch_ocr_demo/batch_ocr_demo
+/cmd/batch_ocr_demo/output/
+/cmd/batch_ocr_demo/input/
+
+/cmd/ocr_ocrld_trans/ocr_ocrld_trans
+/cmd/ocr_ocrld_trans/data/
+
